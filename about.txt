@@ -1,0 +1,6 @@
+express.json([options]) 
+Bu middleware, JSON məlumatlarını oxumaq üçün nəzərdə tutulmuşdur və yalnız doğru Content-Type başlığına malik sorğuları emal edir. 
+Middleware, gzip və ya deflate kimi üsullarla sıxılmış məlumatları avtomatik olaraq açır (dekompressiya edir). 
+Bu prosesdən sonra məlumat yenidən orijinal halına gətirilir və sistem bu açılmış məlumatı oxuyub emal edə bilər.
+Yəni, sıxılmış olan məlumatlar bu proses nəticəsində istifadə üçün hazır vəziyyətə gətirilir.
+
